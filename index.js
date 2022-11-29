@@ -4,36 +4,43 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const fs = require("fs");
 // TODO: Create an array of questions for user input
 const questions = [
+  // question for the title
   {
     type: "input",
     name: "title",
     message: "what is the readME title?",
   },
+  // questions for description
   {
     type: "input",
     name: "description",
     message: "how would you describe the generator",
   },
+  // question for installation
   {
     type: "input",
     name: "installation",
     message: "how would you install this generator?",
   },
+  // question for how to use it
   {
     type: "input",
     name: "usage",
     message: "how would you use the generator?",
   },
+  // question for how to contribute
   {
     type: "input",
     name: "contributing",
     message: "how would users contribute?",
   },
+  // question for how can you test this
   {
     type: "input",
     name: "tests",
     message: "how can you run tests?",
   },
+  // question for which license the user chooses to use.
   {
     type: "list",
     name: "license",
@@ -46,11 +53,13 @@ const questions = [
       "BSD 3",
     ],
   },
+  // enter username
   {
     type: "input",
     name: "username",
     message: "what is your Github username?",
   },
+  // enter email
   {
     type: "input",
     name: "email",

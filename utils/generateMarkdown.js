@@ -14,6 +14,7 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${
     data.title
+    // link for license badge and replacing spaces with %20 followed by sections linking with the user input to create the readme
   } ![License](https://img.shields.io/badge/license-${data.license.replaceAll(
     " ",
     "%20"
@@ -27,7 +28,7 @@ function generateMarkdown(data) {
  6. [License](#license)
  7. [Questions](#questions)
 
- ## Description 
+## Description
  ${data.description}
 
  ## Installation

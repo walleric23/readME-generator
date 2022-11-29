@@ -1,4 +1,4 @@
-# 1234 ![License](https://img.shields.io/badge/license-GNU%20General%20Public%20v3.0-blue)
+# My Project ![License](https://img.shields.io/badge/license-Apache%20License%202.0-blue)
 
  1. [Description](#description)
  2. [Installation](#installation)
@@ -8,23 +8,23 @@
  6. [License](#license)
  7. [Questions](#questions)
 
- ## Description 
- 1234
+## Description
+ use this generator to generate Readme.MD files
 
  ## Installation
- 1234
+ install node
 
  ## Usage
- 1234
+ use this generator to create readme.md files for a project repository
 
  ## Contributing 
- 1234
+ users may contribute by creating readme files
 
  ## Tests 
- 1224
+ create a readme and make sure that everything you entered is correctly linked
 
  ## License
- GNU General Public v3.0
+ Apache License 2.0
 
  ## Questions
 [email](walleric23@gmail.com) [Github](www.github.com/walleric23)
